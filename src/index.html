@@ -1,15 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>EasyCarRent</title>
+<head>
+  <style>
+    body{
+      background-image:  url("./images/bugatti-chiron-pur-sport-106-1582836604.jpg");
+      background-repeat: no-repeat;
+      background-size: 1920px 1080px;
+    }
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    #button1, #button2{
+      margin:70px 30px 50px 250px; 
+      background-color: #952942;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      cursor: pointer;
+    }
 
-  </head>
-  <body>
-      
-  </body>
+    .heading{
+      margin:50px 30px 50px 450px;
+      color: black;
+      font-size: 46px;
+    }
+
+    img{
+    size: 4px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+    <h1 class="heading">EasyCarRent</h1><br>
+    <button id="button1" class="button" onclick="location.href='./owner.html';">Owner Panel</button>
+    <button id="button2" class="button" onclick="location.href='./renter.html';">Rentee Panel</button> 
+
+</body>
 </html>
