@@ -19,16 +19,20 @@ cd EasyCarRent
 
 To run user interface, Run 
 ```
-npm run start
+npm install
+npm run dev
 ```
 
 ## Compile and install contracts:
 
-You will need to be running ganache-cli in one terminal instance and Truffle in a second one. This can be accomplished by opening 2 separate terminal windows or using a program like screen if you use a Linux based OS. After installing Truffle and ganache:
+You will need to be running ganache-cli in one terminal instance and Truffle in a second one. This can be accomplished by opening 2 separate terminal windows or using a program like screen if you use a Linux based OS. After installing Truffle and ganache-cli:
 
 *Terminal Window 1:*
 
-1. Start ganache with settings to your liking (it is a good idea to unlock accounts when starting ganache-cli so you can more easily interact with the contracts).
+1. Start ganache-cli with settings to your liking (it is a good idea to unlock accounts when starting ganache-cli so you can more easily interact with the contracts).
+```
+ganache-cli
+```
 
 *Terminal Window 2:*
 
